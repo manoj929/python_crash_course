@@ -44,5 +44,5 @@ for number in range(1, 11):
 print(cubes)
 
 #list comprehensions
-cube = [num for num in range(1, 11)]
-print(cubes)
+cube = [num ** 3 for num in range(1, 11)]
+print(cube)
