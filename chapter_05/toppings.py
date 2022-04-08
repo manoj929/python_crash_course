@@ -34,3 +34,14 @@ print()
 toppings = ['mushrooms', 'onions', 'pineapple']
 print('mushrooms' in toppings)
 print('pepperonion' in toppings)
+print()
+# checking wether a value is in a list using(in) keyword
+available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+requst_toppings = ['mushrooms', 'french fries', 'olives']
+for topping in requst_toppings:
+    if topping in available_toppings:
+        print(f"adding {topping}")
+    else:
+        print(f'sorry we dont have {topping}')
+
+print('\nfinished making your pizza')
