@@ -41,3 +41,11 @@ else:
 # the new position is old position plus the increment
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 print(f"New position: {alien_0['x_position']}")
+print()
+# Remove key value pairs
+# note: deleted key value pair is deleted permanently
+alien_2 = {'color': 'blue', 'points': 10, 'speed': 'medium'}
+print(alien_2)
+
+del alien_2['speed']
+print(alien_2)
