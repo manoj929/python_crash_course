@@ -23,3 +23,51 @@ display_message()
 def favorite_book(name):
     print(f"\n{name.title()} is One of my favorite book !")
 favorite_book('python crash course')
+
+#try it your self
+#8-6
+def city_country(city, country):
+    city_in_country = f"{city.title()}, {country.title()}"
+    return city_in_country
+
+print("\n cities in countries")
+india = city_country('hyderabad', 'India')
+print(india)
+
+pakistan = city_country('lahore', 'pakistan')
+print(pakistan)
+
+bangkok = city_country('bangkok', 'Thailand')
+print(bangkok)
+
+#8-7 album
+def make_album(artist_name, album_title, songs = None):
+    """Build a dictionary containing information about an album."""
+    music_album = {'name': artist_name, 'title': album_title,}
+    if songs:
+        music_album['songs'] = songs
+    return music_album
+
+album = make_album('m.jackson', 'dangerous')
+print(f"\n{album}")
+
+album = make_album('beethoven', 'ninth symphony')
+print(album)
+
+album = make_album('iron maiden', 'piece of mind', songs=8)
+print(album)
+
+#user albums
+print('\nEnter "quit" to exit at any time!')
+while True:
+    artist_name = input('\nplease enter artist name: ')
+    if artist_name == 'quit':
+        break
+    album_title = input('please enter album title: ')
+    if album_title == 'quit':
+        break
+
+    album = make_album(artist_name, album_title)
+    print(album)
+
+print('Thanks for responding!')
