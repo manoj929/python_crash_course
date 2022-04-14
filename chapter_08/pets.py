@@ -31,3 +31,7 @@ pet_animal('james')
 pet_animal('willie')
 pet_animal(pet_name = 'maggi', pet_type = 'cat')
 pet_animal('julie', 'dog')
+
+#avoiding arument errors
+# pet_animal()
+# pet_animal('ruby', 'cat', 12)
