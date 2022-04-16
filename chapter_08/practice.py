@@ -15,7 +15,7 @@ make_shirt('medium')
 make_shirt('small', 'programmers are loopy.')
 
 #8-5 cities
-def describe_city(city, country = 'India'):
+def describe_city(city, country='India'):
     print(f"\n{city} is in {country}.")
 describe_city('chennai')
 describe_city('sydney',  'Australia')

@@ -12,7 +12,9 @@ musician = get_formatted_name('jimi', 'hendrix')
 print(musician)
 
 #making an argument optional
-def get_formatted_name(first_name, last_name, middle_name = ''):
+#If you specify a default value for a parameter, no spaces should be used on either side of the equal sign
+#The same convention should be used for keyword arguments in function calls
+def get_formatted_name(first_name, last_name, middle_name=''):
     """return a fullname neatly formatted"""
     if middle_name:
         full_name = f"{first_name} {middle_name} {last_name}"

@@ -7,7 +7,7 @@ def build_user(first, last, **user_info):
 
     return user_info
 
-user_profile = build_user('albert', 'einstein', location = 'princeton', field = 'physics')
+user_profile = build_user('albert', 'einstein', location='princeton', field='physics')
 print(user_profile)
 
 #try it yourself
@@ -35,9 +35,9 @@ def make_car(manufacturer, model, **car_dict):
 
     return car_dict
 
-car = make_car('Maruti', 'baleno', color = 'blue', tow_package = True)
+car = make_car('Maruti', 'baleno', color='blue', tow_package=True)
 print(car)
-car = make_car('MG', 'hector', color = 'red', year = 2020, feature = 'internet inside')
+car = make_car('MG', 'hector', color = 'red', year=2020, feature='internet inside')
 print(car)
 
 #another way of above example
@@ -52,7 +52,7 @@ def build_car(manufacturing, model, **options):
     
     return car_dict
     
-car = build_car('honda', 'civic', color = 'white', year = 2021)
+car = build_car('honda', 'civic', color='white', year=2021)
 print(car)
-car = build_car('toyota', 'innova crysta', color = 'grey', country_0rigin = 'japan', utility = 'muv')
+car = build_car('toyota', 'innova crysta', color='grey', country_0rigin='japan', utility='muv')
 print(car)
