@@ -50,14 +50,6 @@ for line in lines:
 
 #10-5
 print()
-# Why do you like programming? Programmers can build almost anything they can imagine.
-# Would you like to let someone else respond? (y/n) y
-
-# Why do you like programming? It's really fun, and really satisfying.
-# Would you like to let someone else respond? (y/n) y
-
-# Why do you like programming? It just never gets old.
-# Would you like to let someone else respond? (y/n) n
 
 filename = 'chapter_10/programing_poll.txt'
 responses = []
